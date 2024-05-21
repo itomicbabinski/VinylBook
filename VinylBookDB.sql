@@ -47,6 +47,7 @@ alter table record_copyes add foreign key (owner_id) references users(id);
 alter table exchanges add foreign key (participant_id) references users(id);
 alter table exchanges add foreign key (album_id) references users(id);
 alter table exchanges add foreign key (record_copy_id) references record_copyes(id);
+alter table exchanges add foreign key (album_id) references albums(id);
 
 
 --select * from clanovi;
