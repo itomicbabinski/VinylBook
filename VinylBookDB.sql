@@ -2,7 +2,7 @@
 go
 drop database if exists vinylbook;
 go
-create database vinylbook;
+create database vinylbook collate Croatian_CI_AS;
 go
 
 use vinylbook;
@@ -11,6 +11,7 @@ create table albums(
 id int not null primary key identity(1,1),
 title varchar(200) not null,
 artist varchar(100) not null,
+language_type bit
 );
 
 create table users(
