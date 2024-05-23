@@ -26,7 +26,7 @@ insert into albums (artist,title,language_type) values
 ('Disciplina Kičme','Zeleni Zub na planeti dosade',0),
 ('Disciplina Kičme','Sviđa mi se da ti ne bude prijatno',0),
 ('Disciplina Kičme','Ja imam Šarene Oči',0),
-('Disciplina Kičme','Dečja esma',0),
+('Disciplina Kičme','Dečja Pesma',0),
 ('Disciplina Kičme','Opet',0),
 ('Električni Orgazam','Električni Orgazam',0),
 ('Električni Orgazam','Lišće prekriva Lisabon',0),
