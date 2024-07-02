@@ -39,7 +39,7 @@ comment_public varchar(300)
 
 create table exchanges(
 id int not null primary key identity(1,1),
-participant_id int null,
+participant_id int not null,
 exchange_id int,
 album_id int,
 record_copy_id int, 
